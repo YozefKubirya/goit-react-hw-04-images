@@ -14,7 +14,7 @@ export const App = () => {
   const [error, errorSetState] = useState(null);
   const [page, pageSetState] = useState(1);
   const [modal, modalSetState] = useState(false);
-  const [largeImageURL, largeImageURLSetState] = useState[''];
+  const [largeImageURL, largeImageURLSetState] = useState('');
 
   useEffect(() => {
     if (search) {
